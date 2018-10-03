@@ -7,7 +7,7 @@ import About from './containers/About';
 import './index.scss';
 const App = () => (
   <Router>
-    <>
+    <div>
       <ul>
         <li>
           <Link to="/">Home</Link>
@@ -18,7 +18,7 @@ const App = () => (
       </ul>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
-    </>
+    </div>
   </Router>
 );
 
